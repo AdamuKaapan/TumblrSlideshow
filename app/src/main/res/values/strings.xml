@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Tumblr Slideshow</string>
     <string name="loginButtonText">Login</string>
-    <string name="loginExplanation">For this app to work, you need to sign in to your Tumblr account. Please press the button, sign in, and authorize the app so we can get on with our lives. Thanks!</string>
+    <string name="loginExplanation">For this app to work, you need to sign in to your Tumblr account. Please press the button, sign in, and allow the app so we can get on with our lives. Thanks!</string>
 </resources>
