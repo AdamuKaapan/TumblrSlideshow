@@ -32,7 +32,7 @@ public final class OauthCredentials {
             throw new IOException("Keys file not found: could not load keys.");
         }
         Scanner scan = new Scanner(file);
-        Log.d(LOG_ID, "Keys file opened for reading.");
+        Log.d(LOG_ID, "Keys file opened for reading");
 
         // Load client key
         if (!scan.hasNextLine()) {
@@ -49,7 +49,7 @@ public final class OauthCredentials {
         }
 
         clientSecret = scan.nextLine();
-        Log.i(LOG_ID, "OAuth client key/secret loaded.");
+        Log.i(LOG_ID, "OAuth client key/secret loaded");
     }
 
     /**
