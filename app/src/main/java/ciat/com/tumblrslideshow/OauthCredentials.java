@@ -84,6 +84,14 @@ public final class OauthCredentials {
                 .commit();
     }
 
+    public static boolean clientKeyAndSecretExist() {
+        return clientKey != null && clientSecret != null;
+    }
+
+    public static boolean tokenKeyAndSecretExist() {
+        return tokenKey != null && tokenSecret != null;
+    }
+
     public static String getClientKey() {
         return clientKey;
     }
